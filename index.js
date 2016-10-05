@@ -26,13 +26,15 @@ module.exports = function patel (options) {
 			if (!filter(id)) return null;
 			if (extensions.indexOf(extname(id)) === -1) return null;
 			var result = "";
+			var map = {mappings: ""};
 			var output = compile(id, code, function (err, r) {
 				if (err) throw(err);
 				result = r.code;
+				map = JSON.parse(r.map.toString());
 			});
 			return {
 				code: result,
-				map: null
+				map: map
 			};
 		}
 	};
