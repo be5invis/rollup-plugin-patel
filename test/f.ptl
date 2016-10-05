@@ -1,0 +1,2 @@
+export : define [double x] : x * 2
+export : define [triple x] : x * 3

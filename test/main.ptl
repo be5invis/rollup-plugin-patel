@@ -1,0 +1,3 @@
+import './f' as : [object [double] [triple]] && LIBRARY
+console.log LIBRARY
+export : define [g x] : [double x] + [triple x]

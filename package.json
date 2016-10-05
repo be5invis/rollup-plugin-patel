@@ -1,0 +1,21 @@
+{
+  "name": "rollup-plugin-patel",
+  "version": "0.1.0",
+  "description": "Integration between Rollup and PatEL.",
+  "keywords": [
+    "rollup-plugin",
+    "PatEL"
+  ],
+  "license": "MIT",
+  "author": "Belleve Invis",
+  "dependencies": {
+    "object-assign": "^4.1.0",
+    "rollup-pluginutils": "^1.5.2",
+    "patel": "^0.31.4"
+  },
+  "main": "./index.js",
+  "devDependencies": {
+    "rollup": "^0.36.1",
+    "rollup-plugin-commonjs": "^5.0.4"
+  }
+}
